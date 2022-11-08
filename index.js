@@ -34,6 +34,7 @@ let month = {
   number: now.getMonth(),
   name: months[now.getMonth()],
 };
+let year = { year: now.getFullYear() };
 
 Math.trunc((now / 1000 / 3600 / 24) % 12);
 let currentYear = Math.trunc(now / yearInMiliseconds) + 1970;
