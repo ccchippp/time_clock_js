@@ -5,13 +5,13 @@ timestamp = {
   year: year,
 };
 let time = {
-  hour: now.getHours,
-  minutes: now.getMinutes,
   seconds: now.getSeconds,
-  date: now.getDate(),
-  day: now.getDay(),
-  year: now.getFullYear(),
+  minutes: now.getMinutes,
+  hour: now.getHours,
+  day: days[now.getDay()],
   month: months[now.getMonth()],
+  date: now.getDate(),
+  year: now.getFullYear(),
 };
 
 let now = new Date();
