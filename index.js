@@ -1,8 +1,17 @@
 timestamp = {
   timecode: now,
-  month: "",
+  month: month,
   day: "",
-  year: "",
+  year: year,
+};
+let time = {
+  hour: now.getHours,
+  minutes: now.getMinutes,
+  seconds: now.getSeconds,
+  date: now.getDate(),
+  day: now.getDay(),
+  year: now.getFullYear(),
+  month: months[now.getMonth()],
 };
 
 let now = new Date();
