@@ -64,10 +64,4 @@ let themonth = now / 2629743833.3334 / 12; //now divided by number of milisecond
   console.log(month);
 };
 
-function crush(themonth) {
-  themooonth = themonth % 1; //grab months leftover from year
-  themooonth = themoonth * 12; //multiply by 12 to get month...probably round down
-  return months[Math.floor(themooonth)]; //round down int from previous calcs and apply to month array
-}
-// javascript.info/date
-// Date.parse(str);
+// Clock functionality
