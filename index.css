@@ -19,6 +19,11 @@ body {
   align-items: center;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
 .clock {
   width: 30rem;
   height: 30rem;

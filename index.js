@@ -63,5 +63,3 @@ let themonth = now / 2629743833.3334 / 12; //now divided by number of milisecond
   months[Math.floor(month)];
   console.log(month);
 };
-
-// Clock functionality
